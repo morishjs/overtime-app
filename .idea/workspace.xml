@@ -4,9 +4,7 @@
     <list default="true" id="93a85aaf-d648-485f-981b-278d8c0cf36b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/_post.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/_post.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_nav.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_nav.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/features/posts_spec.rb" afterPath="$PROJECT_DIR$/spec/features/posts_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/_form.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -29,10 +27,10 @@
     <SUITE FILE_PATH="coverage/Overtime@.coverage" NAME=" Coverage Results" MODIFIED="1485272574561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="Overtime" />
     <SUITE FILE_PATH="coverage/Overtime@navigate_index__Overtime.coverage" NAME="navigate index: Overtime Coverage Results" MODIFIED="1485353419254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Overtime" />
     <SUITE FILE_PATH="coverage/Overtime@Run_spec__user_spec___Overtime.coverage" NAME="Run spec 'user_spec': Overtime Coverage Results" MODIFIED="1485267348766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Overtime" />
-    <SUITE FILE_PATH="coverage/Overtime@Development__Overtime.coverage" NAME="Development: Overtime Coverage Results" MODIFIED="1486049541247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Overtime" />
+    <SUITE FILE_PATH="coverage/Overtime@Development__Overtime.coverage" NAME="Development: Overtime Coverage Results" MODIFIED="1486134801713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Overtime" />
     <SUITE FILE_PATH="coverage/Overtime@spec_helper.coverage" NAME="spec_helper Coverage Results" MODIFIED="1485351919018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec" MODULE_NAME="Overtime" />
     <SUITE FILE_PATH="coverage/Overtime@Run_spec__static_spec___Overtime.coverage" NAME="Run spec 'static_spec': Overtime Coverage Results" MODIFIED="1485356519154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Overtime" />
-    <SUITE FILE_PATH="coverage/Overtime@All_specs_in_spec__Overtime.coverage" NAME="All specs in spec: Overtime Coverage Results" MODIFIED="1485510111346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Overtime" />
+    <SUITE FILE_PATH="coverage/Overtime@All_specs_in_spec__Overtime.coverage" NAME="All specs in spec: Overtime Coverage Results" MODIFIED="1486136046627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Overtime" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -43,18 +41,8 @@
       <file leaf-file-name="posts_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="posts_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/features/posts_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -63,8 +51,8 @@
       <file leaf-file-name="_post.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/posts/_post.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+            <state relative-caret-position="135">
+              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -74,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/shared/_nav.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -83,8 +71,8 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/posts/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="0">
+              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -103,7 +91,7 @@
       <file leaf-file-name="database.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="1245">
               <caret line="83" column="20" lean-forward="false" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="20" />
               <folding />
             </state>
@@ -124,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/config/secrets.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -190,12 +178,12 @@
         <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
         <option value="$PROJECT_DIR$/spec/factories/users.rb" />
         <option value="$PROJECT_DIR$/spec/factories/posts.rb" />
-        <option value="$PROJECT_DIR$/app/views/posts/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_nav.html.erb" />
         <option value="$PROJECT_DIR$/spec/features/posts_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/posts/_post.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/posts/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
       </list>
     </option>
@@ -214,10 +202,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="840" />
     <option name="y" value="23" />
-    <option name="width" value="840" />
-    <option name="height" value="964" />
+    <option name="width" value="1680" />
+    <option name="height" value="953" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -235,6 +222,7 @@
     </navigator>
     <panes>
       <pane id="RailsProjectView" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -280,55 +268,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Overtime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Overtime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Overtime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Overtime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Overtime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Overtime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,7 +282,7 @@
     <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
     <property name="SearchEverywhereHistoryKey" value="applica&#9;null&#9;null&#10;User&#9;FILE&#9;file:///Users/parkjunsuk/Overtime/app/models/user.rb&#10;routes&#9;FILE&#9;file:///Users/parkjunsuk/Overtime/config/routes.rb&#10;post&#9;FILE&#9;file:///Users/parkjunsuk/Overtime/app/controllers/posts_controller.rb&#10;post_spec&#9;FILE&#9;file:///Users/parkjunsuk/Overtime/spec/models/post_spec.rb&#10;seed&#9;FILE&#9;file:///Users/parkjunsuk/Overtime/db/seeds.rb&#10;pc&#9;null&#9;null" />
   </component>
-  <component name="RunManager" selected="RSpec.Run spec 'posts_spec': Overtime">
+  <component name="RunManager" selected="RSpec.All specs in spec: Overtime">
     <configuration default="false" name="All specs in spec: Overtime" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="Overtime" />
@@ -710,11 +651,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'posts_spec': Overtime" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in spec: Overtime" />
         <item index="1" class="java.lang.String" itemvalue="RSpec.navigate index: Overtime" />
         <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'static_spec': Overtime" />
         <item index="3" class="java.lang.String" itemvalue="Ruby.rails_helper" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.All specs in spec: Overtime" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'posts_spec': Overtime" />
       </list>
     </recent_temporary>
   </component>
@@ -741,13 +682,14 @@
       <workItem from="1485443817670" duration="584000" />
       <workItem from="1485510100338" duration="2789000" />
       <workItem from="1485962190699" duration="3578000" />
-      <workItem from="1486047856950" duration="1981000" />
+      <workItem from="1486047856950" duration="2428000" />
+      <workItem from="1486134646460" duration="1406000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Run_spec_'posts_spec'__Overtime - 2017.02.02 at 01h 06m 37s.xml">
-      <configuration name="Run spec 'posts_spec': Overtime" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_spec__Overtime - 2017.02.04 at 00h 34m 11s.xml">
+      <configuration name="All specs in spec: Overtime" configurationId="RSpecRunConfigurationType" />
     </history-entry>
     <history-entry file="Run_spec_'posts_spec'__Overtime - 2017.02.03 at 00h 11m 51s.xml">
       <configuration name="Run spec 'posts_spec': Overtime" configurationId="RSpecRunConfigurationType" />
@@ -778,20 +720,20 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39555000" />
+    <option name="totallyTimeSpent" value="41408000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="840" y="23" width="840" height="964" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="953" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2593985" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12759463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50591016" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5053892" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32505912" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3245509" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39575973" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1053,7 +995,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,33 +1071,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_nav.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="1245">
           <caret line="83" column="20" lean-forward="false" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="20" />
           <folding />
         </state>
@@ -1170,26 +1087,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/secrets.yml">
+    <entry file="file://$PROJECT_DIR$/app/views/posts/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/posts/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_nav.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/_post.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1202,10 +1127,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/secrets.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        <state relative-caret-position="240">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
           <folding />
         </state>
       </provider>
