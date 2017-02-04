@@ -27,6 +27,8 @@ gem 'devise', '~> 4.2'
 
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 
+gem 'gritter', '1.2.0'
+
 group :development, :test do
   gem 'byebug'
   gem 'rspec-rails', '~> 3.5'
